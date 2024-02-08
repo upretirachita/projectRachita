@@ -1,4 +1,4 @@
-#gallaryProject  with responsive environmebt
+#gallaryProject  with responsive environment , react routing crud
 
 ##Also there is CRUD in home page , action some are fixed can't be change some can be added dynamically 
 
