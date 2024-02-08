@@ -1,0 +1,66 @@
+/* Imagedetail.css */
+.modal-fullscreen {
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Style buttons in the modal footer */
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Close button style */
+.modal-footer .btn-secondary {
+  background-color: #ff004f;;
+  border-color:#ff004f;;
+  color: black;
+  transition: background-color 0.3s; 
+}
+.modal-footer .btn-secondary:hover {
+  background-color: black; 
+  color: #ff004f; 
+}
+
+/* Next button style */
+.modal-footer .btn-primary {
+  background-color:#ff004f;;
+  border-color: #ff004f;;
+  color: black;
+  transition: background-color 0.3s; 
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: black; 
+  color: #ff004f; 
+}
+/* Toggle Full Screen button style */
+.modal-footer .btn-info {
+  background-color: #ff004f;;
+  border-color: #ff004f;;
+  color: black;
+  transition: background-color 0.3s; 
+}
+
+.modal-footer .btn-info:hover {
+  background-color: black; 
+  color: #ff004f; 
+}
+/* Smaller button size in full-screen mode */
+.modal-fullscreen .modal-footer button {
+  font-size: 80%;
+}

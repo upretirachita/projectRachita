@@ -1,0 +1,14 @@
+.navbar  {
+ background-color: #ff004f;
+ 
+}
+.navbar-expand .navbar-nav .nav-link{
+    color:white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-expand .navbar-nav .nav-link:hover {
+    background-color: black;
+    color: #ff004f; 
+    transform: scale(1.09);
+  }

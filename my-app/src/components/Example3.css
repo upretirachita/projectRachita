@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card {
+    cursor: pointer;
+    transition: transform 0.8s ease;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .background-zoom {
+    background: url('../images/2d.JPG') center/cover no-repeat;
+    border: none;
+  }
+  
+  .card-zoom {
+    transform: scale(2);
+  }
+  

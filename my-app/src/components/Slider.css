@@ -1,0 +1,17 @@
+.modal-footer button {
+    background-color: #ff004f;
+    color:black;
+}
+.text-center Button {
+    background-color: #ff004f;
+    color: black;
+    border: 1px solid #ff004f;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .text-center Button:hover {
+    background-color: black;
+    color: #ff004f;
+    border: 1px solid black;
+  }
+  
