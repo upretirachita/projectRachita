@@ -1,6 +1,6 @@
 #gallaryProject  with responsive environment , react routing crud
 
-##Also there is CRUD in home page , action some are fixed can't be change some can be added dynamically 
+##CRUD has been implemented in home page , action some are fixed can't be change some can be added dynamically. 
 
 ##1 card pic when clicked background pic is changed ,Background Image can be downloaded,Background Image can be saved
 
